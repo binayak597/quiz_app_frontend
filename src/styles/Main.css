@@ -1,0 +1,37 @@
+.container ol li {
+    font-size: 1.2rem;
+    color: #cecece;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.form .userInfo {
+    font-size: 1rem;
+    padding: .3rem 1rem;
+    width: 50%;
+    border: none;
+    border-radius: 4px;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.start .btn {
+    text-decoration: none;
+    border: none; 
+    border-radius: .1rem;
+    color: #202020;
+    background-color: #faff5a;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
