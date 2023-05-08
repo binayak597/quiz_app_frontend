@@ -17,8 +17,8 @@ const ResultTable = () => {
     return (
         <div className="table-margin">
             <table>
-                <thead>
-                    <tr className='table-head'>
+                <thead className='table-head'>
+                    <tr>
                         <td>Name</td>
                         <td>Attempts</td>
                         <td>Earn Points</td>
