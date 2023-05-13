@@ -13,6 +13,7 @@ const Questions = ({ onChecked }) => {
     useEffect(() => {
         // console.log({trace, checkedOption});
         dispatch(updateResult({ trace, checkedOption }));
+        // eslint-disable-next-line
     },[checkedOption]);
 
     // useEffect(() => {
